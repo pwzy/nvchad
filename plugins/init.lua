@@ -108,5 +108,17 @@ return {
    ["junegunn/fzf.vim"] = {
       after = "fzf",
    },
+   
+   -- 更改成对符号
+   ["tpope/vim-surround"] = { },
+   -- 使surround插件操作能重复的插件
+   ["tpope/vim-repeat"] = { },
+   -- 批量注释与反注释
+   ["scrooloose/nerdcommenter"] = { },
+   -- 快速选择相领的对象
+   ["vim-scripts/wildfire.vim"] = { },
+   -- 多光标操作
+   ["mg979/vim-visual-multi"] = { },
+
 
 }
