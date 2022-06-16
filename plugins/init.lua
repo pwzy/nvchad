@@ -94,7 +94,7 @@ return {
    
    ["junegunn/fzf"] = {
      config =function()
-       vim.cmd([[call fzf#install()]])
+     --  vim.cmd([[call fzf#install()]])
      end,
    },
    ["junegunn/fzf.vim"] = {
