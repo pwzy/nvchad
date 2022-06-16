@@ -68,4 +68,10 @@ M.dapui = {
 
 }
 
+M.fzf = {
+  n = {
+      ["<leader>sb"] = { "<cmd> Buffers <CR>", "Buffers" },
+  },
+}
+
 return M
