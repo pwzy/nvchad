@@ -91,4 +91,14 @@ return {
          require "custom.plugins.dap-plugins.nvim-dap-ui"
       end,
    },
+   
+   ["junegunn/fzf"] = {
+     config =function()
+       vim.cmd([[call fzf#install()]])
+     end,
+   },
+   ["junegunn/fzf.vim"] = {
+      after = "fzf",
+   },
+
 }
