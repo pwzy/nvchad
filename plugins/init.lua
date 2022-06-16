@@ -119,7 +119,11 @@ return {
    -- 多光标操作
    ["mg979/vim-visual-multi"] = { },
    -- 彩色括号
-   ["luochen1990/rainbow"] = { },
+   ["luochen1990/rainbow"] = {
+     config = function ()
+        vim.g.rainbow_active = 1
+     end,
+   },
    -- 增强 Vim 的书签(标记)跳转功能
    ["kshenoy/vim-signature"] = { },
 
