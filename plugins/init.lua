@@ -55,17 +55,16 @@ return {
    --       }
    --    end,
    -- },
+
+
    ["lukas-reineke/indent-blankline.nvim"] = {
       config = function()
          require "custom.plugins.indent_blankline"
       end,
    },
 
-
-
    ["easymotion/vim-easymotion"] = { },
 
-   ["ojroques/vim-oscyank"] = { },
 
    -- 更改成对符号
    ["tpope/vim-surround"] = { },
@@ -98,7 +97,7 @@ return {
          require "custom.plugins.dap-plugins.nvim-dap-ui"
       end,
    },
-   
+
    ["junegunn/fzf"] = {
      run = ":call fzf#install()",
      -- config =function()
@@ -119,6 +118,12 @@ return {
    ["vim-scripts/wildfire.vim"] = { },
    -- 多光标操作
    ["mg979/vim-visual-multi"] = { },
+   -- 彩色括号
+   ["luochen1990/rainbow"] = { },
+   -- 增强 Vim 的书签(标记)跳转功能
+   ["kshenoy/vim-signature"] = { },
 
+   -- 远程复制插件
+   ["ojroques/vim-oscyank"] = { },
 
 }
