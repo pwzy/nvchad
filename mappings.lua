@@ -1,9 +1,10 @@
 local M = {}
 
---
--- M.disabled = {
---    "<C-n>",
--- }
+M.disabled = {
+  n = {
+      ["<C-n>"] = ""
+  }
+}
 
 M.truzen = {
    n = {
