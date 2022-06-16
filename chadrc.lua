@@ -32,6 +32,12 @@ M.plugins = {
    -- },
 }
 
+M.options = {
+   user = function()
+      vim.opt.scrolloff = 3
+   end,
+}
+
 M.ui = {
    theme = "onedark",
    hl_override = require "custom.highlights",
