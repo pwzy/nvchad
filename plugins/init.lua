@@ -55,6 +55,13 @@ return {
    --       }
    --    end,
    -- },
+   ["lukas-reineke/indent-blankline.nvim"] = {
+      config = function()
+         require "custom.plugins.indent_blankline"
+      end,
+   },
+
+
 
    ["easymotion/vim-easymotion"] = { },
 
