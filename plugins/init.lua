@@ -72,7 +72,7 @@ return {
    ["tpope/vim-repeat"] = { },
 
    -- 大纲式导航
-   ["majutsushi/tagbar"] = { },
+   -- ["majutsushi/tagbar"] = { },
    ["liuchengxu/vista.vim"] = { },
 
    -- vim Buffer 管理
