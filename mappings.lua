@@ -77,4 +77,10 @@ M.fzf = {
   },
 }
 
+M.vista = {
+  n = {
+      ["<leader>gg"] = { "<cmd> Buffers <CR>", "Buffers" },
+  },
+}
+
 return M
