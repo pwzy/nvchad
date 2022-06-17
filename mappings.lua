@@ -79,7 +79,7 @@ M.fzf = {
 
 M.vista = {
   n = {
-      ["<leader>gg"] = { "<cmd> Buffers <CR>", "Buffers" },
+      ["<leader>gg"] = { "<cmd> Vista!! <CR>", "Buffers" },
   },
 }
 
