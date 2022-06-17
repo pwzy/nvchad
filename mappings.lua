@@ -63,6 +63,7 @@ M.dapui = {
 
       ["<leader>du"] = { "<cmd> lua require'dapui'.toggle() <CR>", "Toggle Dap-ui" },
       ["<leader>di"] = { "<cmd> lua require'dapui'.eval() <CR>", "Evaluate Expression" },
+      ["<leader>dr"] = { "<cmd> lua require'dapui'.setup() <CR>", "Reset Dap-ui" },
   },
 
   v = {
