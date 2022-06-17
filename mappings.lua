@@ -79,7 +79,7 @@ M.fzf = {
 
 M.vista = {
   n = {
-      ["<leader>gg"] = { "<cmd> Vista!! <CR>", "Buffers" },
+      ["<leader>gg"] = { "<cmd> Vista!! <CR>", "Vista Toggle" },
   },
 }
 
