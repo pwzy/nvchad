@@ -129,5 +129,9 @@ return {
 
    -- 远程复制插件
    ["ojroques/vim-oscyank"] = { },
+   
+   -- 文件管理器
+   ["kevinhwang91/rnvimr"] = { },
+
 
 }
