@@ -38,14 +38,14 @@ M.shade = {
 M.rnvimr= {
    n = {
       -- toggle
-      ["<leader>e"] = { "<cmd> RnvimrToggle <CR>", "   RnvimrToggle" },
+      ["<leader>ra"] = { "<cmd> RnvimrToggle <CR>", "   RnvimrToggle" },
    },
 }
 M.nnn= {
    n = {
       -- toggle
-      ["<leader>nn"] = { "<cmd> NnnExplorer <CR>", "  NnnExplorer " },
-      ["<leader>np"] = { "<cmd> NnnPicker <CR>", "  NnnPicker " },
+      ["<leader>e"] = { "<cmd> NnnExplorer <CR>", "  NnnExplorer " },
+      ["<leader>n"] = { "<cmd> NnnPicker <CR>", "  NnnPicker " },
    },
 }
 
