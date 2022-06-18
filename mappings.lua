@@ -4,6 +4,8 @@ M.disabled = {
   n = {
       ["<C-n>"] = "",
       ["<S-b>"] = "",
+      ["<leader>n"] = "",
+      ["<leader>e"] = "",
   }
 }
 
@@ -33,13 +35,21 @@ M.shade = {
    },
 }
 
-M.nvimtree = {
-
+M.rnvimr= {
    n = {
       -- toggle
-      ["<leader>e"] = { "<cmd> NvimTreeToggle <CR>", "   toggle nvimtree" },
+      ["<leader>e"] = { "<cmd> RnvimrToggle <CR>", "   RnvimrToggle" },
    },
 }
+M.nnn= {
+   n = {
+      -- toggle
+      ["<leader>nn"] = { "<cmd> NnnExplorer <CR>", "  NnnExplorer " },
+      ["<leader>np"] = { "<cmd> NnnPicker <CR>", "  NnnPicker " },
+   },
+}
+
+
 
 M.general = {
 
