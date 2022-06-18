@@ -132,6 +132,10 @@ return {
    
    -- 文件管理器
    ["kevinhwang91/rnvimr"] = { },
-
+   ["luukvbaal/nnn.nvim"] = {
+     config = function()
+       require("nnn").setup()
+     end,
+   },
 
 }
