@@ -137,5 +137,8 @@ return {
        require("nnn").setup()
      end,
    },
+   
+   -- 开始界面
+   ["mhinz/vim-startify"] = { },
 
 }
