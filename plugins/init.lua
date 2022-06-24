@@ -140,5 +140,15 @@ return {
    
    -- 开始界面
    ["mhinz/vim-startify"] = { },
+   
+      -- 文本对齐
+   ["junegunn/vim-easy-align"] = { 
+       config = function ()
+        vim.cmd([[
+        nmap ga <Plug>(EasyAlign)
+        xmap ga <Plug>(EasyAlign)
+        ]])
+       end,
+   },
 
 }
