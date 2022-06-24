@@ -45,7 +45,7 @@ M.nnn= {
    n = {
       -- toggle
       ["<leader>e"] = { "<cmd> NnnExplorer <CR>", "  NnnExplorer " },
-      ["<leader>n"] = { "<cmd> NnnPicker <CR>", "  NnnPicker " },
+      -- ["<leader>n"] = { "<cmd> NnnPicker <CR>", "  NnnPicker " },
    },
 }
 
