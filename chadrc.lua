@@ -45,6 +45,8 @@ M.options = {
       vim.opt.shiftwidth = 4
       -- expandtab 选项把插入的 tab 字符替换成特定数目的空格。具体空格数目跟 tabstop 选项值有关
       vim.opt.expandtab = true
+      -- 关闭智能缩进
+      vim.opt.smartindent= false
 
    end,
 }
