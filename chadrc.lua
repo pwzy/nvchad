@@ -47,6 +47,13 @@ M.options = {
       vim.opt.expandtab = true
       -- 关闭智能缩进
       vim.opt.smartindent= false
+      
+      -- 不生成交换文件
+      vim.opt.swapfile= false
+      -- 不生成备份文件
+      vim.opt.backup = false
+      -- 设置当文件被改动时自动载入
+      vim.opt.autoread = true
 
    end,
 }
