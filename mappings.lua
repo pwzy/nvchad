@@ -66,6 +66,7 @@ M.dapui = {
 
   n = {
       ["<leader>db"] = { "<cmd> lua require'dap'.toggle_breakpoint() <CR>", "Toggle Breakpoint" },
+      ["<leader>dB"] = { "<cmd> lua require'dap'.clear_breakpoints() <CR>", "Clear All Breakpoint" },
       ["<leader>dc"] = { "<cmd> DapContinue <CR>", "Continue Debug" },
       ["<leader>dn"] = { "<cmd> lua require'dap'.step_over() <CR>", "Step Over" },
       ["<leader>ds"] = { "<cmd> lua require'dap'.setp_into() <CR>", "Step Into" },
