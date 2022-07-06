@@ -141,7 +141,7 @@ return {
    -- 开始界面
    ["mhinz/vim-startify"] = { },
    
-      -- 文本对齐
+   -- 文本对齐
    ["junegunn/vim-easy-align"] = { 
        config = function ()
         vim.cmd([[
@@ -149,6 +149,13 @@ return {
         xmap ga <Plug>(EasyAlign)
         ]])
        end,
+   },
+   
+   -- 复制后高亮复制后的区域
+   ["machakann/vim-highlightedyank"] = {
+     config = function ()
+        vim.g.highlightedyank_highlight_duration = 1000
+     end,
    },
 
 }
