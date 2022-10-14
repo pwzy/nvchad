@@ -58,6 +58,9 @@ M.general = {
       ["<leader>bs"] = { "<cmd> w <CR>", "﬚  save file" },
       -- close buffer
       ["<leader>bd"] = { "<cmd> bd <CR>", "Close Current Buffer" },
+      -- j,k mapping
+      ["j"] = { "gj", "" },
+      ["k"] = { "gk", "" },
    },
 
 }
